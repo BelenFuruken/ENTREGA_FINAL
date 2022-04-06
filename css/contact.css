@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tipografia{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(240, 248, 255, 0.966);
+}
+.linea{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.966);
+}
+ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+nav{
+    background-color: rgb(44, 44, 44);
+    color: rgba(240, 248, 255, 0.966);
+}
+footer{
+    text-align: center;
+    background-color: darkgrey;
+    /*height: 350px;
+    width: 100%;*/
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fot{
+    width: 200px;
+    height: 200px;
+    margin: 17px;
+    background-color: aliceblue;
+    border: 0px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: brown;
+    display: flex;
+    justify-self: center;
+
+}
+.letra{
+    text-decoration: underline;
+}
+.logo{
+    margin: 10px;
+    padding: 10px;
+}
+#contacto{
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    /*position: relative;*/
+}
+h6{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    width: 500px;
+    height: 15px;
+}
+#mensaje{
+    width: 700px;
+    height: 180px;
+}
+button{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.texto1{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.texto2{
+    color: black;
+
+}
+.bordes{
+    text-decoration: none;
+    border: 2px solid black;
+}
+button{
+    margin-top: 20px;
+}

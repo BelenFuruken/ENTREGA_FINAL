@@ -1,0 +1,51 @@
+@import"../base/base.scss";
+@import"../componentes/footer.scss";
+@import"../componentes/variables.scss";
+@import"../componentes/dindex.scss";
+@import"../componentes/nav.scss";
+
+body {
+    background-image: url(../image/FONDO\ FINAL.jpg);
+    background-size: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: $color-letras;
+    header{
+        nav{
+            color: $color-letras;
+            height: 100px;
+            div{
+                display: flex;
+                flex-direction: row;
+                justify-items: end;
+                padding-top: 10px;
+                a{
+                    text-decoration:none;
+
+                    color: $color-letras;
+                }
+            }
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        color:$color-letras;
+                    }
+                }
+            }
+        }
+    }
+    div{
+        div{
+            h1{
+                color:$color-letras;
+            }
+        }
+        h4{
+            color: $color-letras;
+        }
+    }
+}
+
+
+
+

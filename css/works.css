@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tipografia{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(240, 248, 255, 0.966);
+}
+.linea{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.966);
+}
+ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+nav{
+    background-color: rgb(44, 44, 44);
+    color: rgba(240, 248, 255, 0.966);
+}
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 7px;}
+.letra{
+    text-decoration: underline;
+}
+.logo{
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    color: black;
+    margin: 50px;
+}
+p{
+color: black;
+justify-content:spa ;
+}
+.titulo {
+margin-top: 50px;
+margin-bottom: 50px;
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+}
+.h3{
+    color: black;
+}
